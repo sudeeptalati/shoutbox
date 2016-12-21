@@ -138,7 +138,9 @@ class ShoutboxController extends Controller
     public function actionShout()
     {
 
-        header('Access-Control-Allow-Origin: *');
+
+        header("Access-Control-Allow-Origin: *");
+        header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
 
         //echo "I am shouting ";
 
@@ -169,6 +171,10 @@ class ShoutboxController extends Controller
 
     public function actionLoadchats()
     {
+
+        header("Access-Control-Allow-Origin: *");
+        header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
+
         $allchatarray=array();
 
         $allchats=Shoutbox::find()
