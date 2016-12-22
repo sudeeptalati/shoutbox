@@ -36,7 +36,7 @@ function loadchat() {
 
 
 
-    url = 'http://192.168.1.200/shoutbox/yii2/basic/web/index.php?r=shoutbox/loadchats',
+    url = 'http://shoutbox.rapporthosting.com/shoutbox/yii2/basic/web/index.php?r=shoutbox/loadchats',
 	console.log("--loading chat..........."+url);
 
         $.getJSON(url, function (data) {
@@ -142,7 +142,7 @@ function replytothecchat() {
         {
 
         $.ajax({
-            url: 'http://192.168.1.200/shoutbox/yii2/basic/web/index.php?r=shoutbox/shout',
+            url: 'http://shoutbox.rapporthosting.com/shoutbox/yii2/basic/web/index.php?r=shoutbox/shout',
             type: 'POST',
             data: {'chat_msg': chat_msg, 'person': person},
             success: function (data, status) {

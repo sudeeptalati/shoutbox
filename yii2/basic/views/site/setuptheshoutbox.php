@@ -8,8 +8,8 @@
 
 
 
-<?php $js_url = "http://192.168.1.200/shoutbox/yii2/basic/web/js/shout.js"; ?>
-<?php $css_url = "http://192.168.1.200/shoutbox/yii2/basic/web/css/shout.css"; ?>
+<?php $js_url = "http://shoutbox.rapporthosting.com/shoutbox/yii2/basic/web/js/shout.js"; ?>
+<?php $css_url = "http://shoutbox.rapporthosting.com/shoutbox/yii2/basic/web/css/shout.css"; ?>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

@@ -1,3 +1,0 @@
-php_flag magic_quotes_gpc Off
-
-Header set Access-Control-Allow-Origin "*"
